@@ -1,0 +1,266 @@
+PROCESS: PlatingChromium
+INPUTOBJECT:
+- ObjectClass: ObjectNickelPlated
+  Amount: '1'
+  IDs:
+  - ObjectID
+  EngineeringMaterialNames: []
+  ComponentSectionNames: []
+- ObjectClass: Electrolyte
+  Amount: '1'
+  IDs:
+  - ElectrolyteID
+  EngineeringMaterialNames: []
+  ComponentSectionNames: []
+- ObjectClass: ElectrolyteComponent
+  Amount: 1..n
+  IDs:
+  - ElectrolyteReplenishmentID
+  EngineeringMaterialNames: []
+  ComponentSectionNames: []
+INPUTDATASET:
+- Container: AnodeDataSet
+  Properties: AnodeType
+  Amount: '1'
+  DataProperties:
+  - hasStringLiteral
+- Container: AnodeDataSet
+  Properties: Mesh
+  Amount: '1'
+  DataProperties:
+  - hasStringLiteral
+- Container: AnodeDataSet
+  Properties: AnodeCoating
+  Amount: '1'
+  DataProperties:
+  - hasStringLiteral
+- Container: AnodeDataSet
+  Properties: LayerWeight
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: AnodeDataSet
+  Properties: Dimension
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: AnodeDataSet
+  Properties: ManufacturerAnode
+  Amount: '1'
+  DataProperties:
+  - hasStringLiteral
+- Container: AnodeDataSet
+  Properties: AnodeCondition
+  Amount: '1'
+  DataProperties:
+  - hasStringLiteral
+- Container: AnodeDataSet
+  Properties: SurfaceFactor
+  Amount: '1'
+  DataProperties:
+  - hasValue
+- Container: PHDataSet
+  Properties: PHElectrode
+  Amount: '1'
+  DataProperties:
+  - hasStringLiteral
+- Container: PHDataSet
+  Properties: ManufacturerPHElectrode
+  Amount: '1'
+  DataProperties:
+  - hasStringLiteral
+INPUTDATAFILES:
+- FileType: File
+  Amount: '1'
+  FileShortName: TableOfExperiments
+INPUTDATASETFROMMATERIALTEMPLATE:
+- MaterialTemplateName: ''
+  Integrate: false
+OUTPUTOBJECT:
+- ObjectClass: ObjectChromiumPlated
+  Amount: '1'
+  IDs:
+  - ObjectID
+  EngineeringMaterialNames: []
+  ComponentSectionNames: []
+- ObjectClass: Electrolyte
+  Amount: '1'
+  IDs:
+  - ElectrolyteID
+  EngineeringMaterialNames:
+  - ElectrolyteMaterial
+  ComponentSectionNames: []
+PROCESSPARAMETERSET:
+- ParameterName: TemperatureTarget
+  PhysicalQuantity: true
+- ParameterName: CurrentDensity
+  PhysicalQuantity: true
+- ParameterName: PlatingTimeTarget
+  PhysicalQuantity: true
+- ParameterName: AgitationType
+  PhysicalQuantity: false
+- ParameterName: AgitationStrength
+  PhysicalQuantity: true
+- ParameterName: ElectrolyteAge
+  PhysicalQuantity: true
+- ParameterName: CurrentForm
+  PhysicalQuantity: false
+- ParameterName: CurrentTarget
+  PhysicalQuantity: true
+- ParameterName: OnTime
+  PhysicalQuantity: true
+- ParameterName: OffTime
+  PhysicalQuantity: true
+- ParameterName: DutyCycle
+  PhysicalQuantity: true
+- ParameterName: PHTarget
+  PhysicalQuantity: false
+- ParameterName: DateLastPlating
+  PhysicalQuantity: false
+- ParameterName: DateLastReactivation
+  PhysicalQuantity: false
+- ParameterName: ElectrolyteVolume
+  PhysicalQuantity: true
+PROCESSDATASET:
+- Container: VoltageDataSet
+  Properties: VoltageStartActual
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: VoltageDataSet
+  Properties: VoltageEndActual
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: CurrentDataSet
+  Properties: CurrentActual
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: PHDataSet
+  Properties: PhValueStartActual
+  Amount: '1'
+  DataProperties:
+  - hasValue
+- Container: PHDataSet
+  Properties: PhValueEndActual
+  Amount: '1'
+  DataProperties:
+  - hasValue
+- Container: TemperatureDataSet
+  Properties: TemperatureActual
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: ConductivityDataSet
+  Properties: Conductivity
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: TemporalDataSet
+  Properties: PlatingTimeActual
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: VoltageDataSet
+  Properties: VoltageAverage
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: CurrentDataSet
+  Properties: CurrentAverage
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: PHDataSet
+  Properties: PHValueAverage
+  Amount: '1'
+  DataProperties:
+  - hasValue
+- Container: TemperatureDataSet
+  Properties: TemperatureAverage
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: TemperatureDataSet
+  Properties: TemperatureMax
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: CurrentDataSet
+  Properties: CurrentMax
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+- Container: VoltageDataSet
+  Properties: VoltageMax
+  Amount: '1'
+  DataProperties:
+  - hasValue
+  - hasUnitSymbol
+PROCESSDATASETFROMMATERIALTEMPLATE:
+- MaterialTemplateName: ''
+  Integrate: false
+PROCESSDATAFILES:
+- FileType: File
+  Amount: '1'
+  FileShortName: PlatingRecord
+SUBPROCESSSET:
+- SubprocessType: PHMeasurement
+- SubprocessType: ConductivityMeasurement
+- SubprocessType: TemperatureMeasurement
+PROCESSSETUP:
+- EquipmentType: PlatingTank
+- EquipmentType: HeatingSystem
+- EquipmentType: AgitationSystem
+- EquipmentType: RinsingStations
+- EquipmentType: pHMeasurementDevice
+- EquipmentType: ConductivityMeasurementDevice
+- EquipmentType: Anode
+- EquipmentType: TemperatureMeasurementDevice
+INFRASTRUCTUREEQUIPMENTSET:
+- InfrastructureEquipmentType: PowerSource
+SOFTWAREARCHITECTURE:
+- SoftwareModule: Software
+ENGINEERINGMATERIALS:
+- EngineeringMaterialName: ''
+  MaterialTemplates: []
+- EngineeringMaterialName: ElectrolyteMaterial
+  MaterialTemplates:
+  - ElectrolyteMaterialTemplate
+MATERIALTEMPLATES:
+- TEMPLATENAME: ElectrolyteMaterialTemplate
+  TEMPLATETYPE: AsSpecified
+  THERMOPHYSICALPROPERTIES:
+  - Property: Quantity
+    MinMaxValues: false
+    TemperatureDependent: false
+    Amount: '1'
+  - Property: Density
+    MinMaxValues: false
+    TemperatureDependent: false
+    Amount: '1'
+COMPONENTSECTIONS:
+- ComponentSectionName: ''
+  SectionTemplates: []
+COMPONENTSECTIONTEMPLATES:
+- TEMPLATENAME: ''
+  TEMPLATETYPE: AsSpecified
+  GEOMETRICDIMENSIONS:
+  - Property: Quantity
+    MinMaxValues: false
+    TemperatureDependent: false
+    Amount: '1'

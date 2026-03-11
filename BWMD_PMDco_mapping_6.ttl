@@ -1,0 +1,1725 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+dc:creator owl:equivalentProperty dcterms:creator .
+
+dc:definedBy owl:equivalentProperty skos:definition .
+
+foaf:name owl:equivalentProperty rdfs:label .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AbrasionResistance(TaberAbraser)> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001010> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AbrasionResistance(Tribotouch)> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001010> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Acceleration> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000575> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ActivationProcess> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000584> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ActuatorEquipment> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AdditionAgent> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Adhesion-BendingTest> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000509> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Adhesion-ThermalShockTest> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000509> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AdhesionForce> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020200> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AdhesionTest> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000509> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AgitationSystem> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020153> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AirInjectionFlowRate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000847> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AlkalineCleaning> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Aluminium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_28984> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AluminiumAlloy> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000852> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AluminiumMaterial> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020071> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Amount> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020207> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AmountOfSubstance> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020207> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Analysing> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000070> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnalysisOfResultingSpectraAndComparisonWithReferenceSpectra> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000945> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Angle> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020150> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Annealing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000934> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Anode> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000602> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodeArea> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020199> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodeArrangement> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000032> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodeCoating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodeCoatingThickness> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodeDimensions> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodeLimitingCurrentDensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000571> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodesSupplier> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodicCleaning> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AnodicTafelSlope> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060005> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Antimony> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30513> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Area> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020199> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AreaDetector> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001022> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Argon> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49475> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Arsenic> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ArtificialAging> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020210> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ArtificialAgingDuration> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000511> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ArtificialAgingDurationAsSupposed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000511> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ArtificialAgingTemperature> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ArtificialAgingTemperatureAsSupposed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Astatine> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30415> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Atom> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33250> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AuxiliaryAnode> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000571> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AuxiliaryCathode> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000519> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AverageGrainSize> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000503> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AverageHardnessBrinell> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000537> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#AverageHardnessVickers> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000789> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Bar> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Barium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_32594> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BaseElementOfComposition> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000551> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BaseQuantityKind> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BaseUnit> rdfs:subClassOf <http://purl.obolibrary.org/obo/UO_0000003> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BasicMaterial> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Batch> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Berylium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30501> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Bismuth> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33301> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BlucrB> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020144> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BlucrC1> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020144> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BlucrC2> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000551> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Boron> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BrightElectroplatingRange> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000619> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BrightThrowingPower> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000622> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BrightenerAdditive> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000911> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BrightenerBasic> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000883> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BrightenerCarrier> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020135> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BrinellIndentation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000537> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BrinellIndenter> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000775> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BrinellTestingEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000775> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Bromine> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_22927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Buffer> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#BurntDeposit> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000540> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Busbar> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000024> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Cadmium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_22977> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Caesium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30514> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Calcium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_22984> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CameraEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000602> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Capacitance> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000621> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Carbon> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27594> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CartesianCoordinate> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastIronMaterial> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastPart> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000030> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000648> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000648> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingMeltIntoMold> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000906> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingPressure> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000896> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingQuantity> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingRelatedSubprocess> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000833> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingSimulation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingTemperatureAsIs> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CastingTemperatureAsSupposed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Cathode> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000519> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodeEfficiency> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0001930> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodeLimitingCurrentDensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000620> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodicCleaning> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodicDegreasing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodicDegreasingCurrentDensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000519> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodicDegreasingSupplier> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodicDegreasingTemperature> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodicDegreasingTime> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CathodicTafelSlope> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060005> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CellSizeDiscretization> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000931> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Cerium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33369> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChelatingAgent> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChemicalCleaning> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChemicalComposition> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000551> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChemicalElement> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChemicalElementSymbol> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000028> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChemicalFormula> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020004> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChemicalProcess> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000869> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChemicalSolution> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Chlorine> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_23116> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChromeDeposition> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChromePlatingSolution> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020029> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Chromium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_28073> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Chromium(III)> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_28073> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ChromiumElectrolyte> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020029> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CircumferentialTurningSpeed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000768> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Cleaning> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CleaningAgent> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Coating> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CoatingDefect> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000953> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CoatingRelatedQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CoatingSurface> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000965> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Cobalt> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27638> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CognitiveProcess> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000011> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ColorMeasurement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000878> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Column> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ColumnNumber> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComplexingAgent> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentAsMeasuredDataSet> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentAsPredictedDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentAsSimulatedDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentAsSpecifiedDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentDataSet> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentSection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020152> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentTest> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000976> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentTestCompressiveLoading> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000581> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComponentTestTensileLoading> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000974> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CompositionRelatedQuantity> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000551> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CompressedAirConnection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020152> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ComputerTomograph> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0001022> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Concentration> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020101> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Concluding> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ConductingSalt> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000620> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Conductivity> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000620> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Consumable> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ConsumableName> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ConsumableRelatedQuantity> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Continuant> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ContinuantFiatBoundary> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000140> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ControlSoftware> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000582> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Convection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000520> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ConvectionStrength> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000952> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Cooler> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000968> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Cooling> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000549> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CoolingEmulsionWithWaterAndOil> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000055> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CoolingWaterConnection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000968> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Copper> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_28694> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CorrosionCurrent> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000620> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CorrosionMeasurementElectrochemical> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000622> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CorrosionMeasurementImpedance> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000622> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CorrosionMeasurementNss> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CorrosionPotential> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000619> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CorrosionRate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000600> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CoveringPower> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000575> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Crack> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020202> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CrackStructure> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020202> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Crazing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020202> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CriticalCurrentDensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000621> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Cross-SectionPreparation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CrossheadDisplacement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000636> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CrossheadDisplacementAfterFracture> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000032> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CrossheadSeparationRate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000974> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CrystalStructure> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000591> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CrystalStructureAnalysis> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000957> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CurrentActual> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CurrentDensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000621> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CurrentEfficiency> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000621> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CurrentForm> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000619> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CurrentTarget> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020135> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#CylindricalTensileTestSpecimen> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DataAcquisitionSoftware> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DataEvaluation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000583> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DataExport> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000067> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DataReduction> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DataSet> owl:equivalentClass <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DataTransformation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Deburring> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000914> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Decapitation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000914> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DecapitationSupplier> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DecapitationTemperature> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DecapitationTime> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000880> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DecorativeChromePlating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Degreasing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Deionization> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000914> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DendriteArmSpacing> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000790> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Density> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000597> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DepthOfCut> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000822> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DerivedUnit> rdfs:subClassOf <http://purl.obolibrary.org/obo/UO_0000003> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Desktop> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000881> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DeviceNumber> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Diameter> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0040001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DiameterBrinellIndenter> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DigitalCamera> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000602> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DimensionlessRatio> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020132> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DispersionChromePlating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DispersoidInclusionRate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020101> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Disposition> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000016> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Documenting> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000310> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Drag-In> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020113> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Drag-Out> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020113> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DrilledHole> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020153> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Drying> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000914> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Ductility> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000848> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#DullFinish> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000911> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Dysprosium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33377> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EBSDDetector> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000922> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElasticConstant> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000618> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectricCharge> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000619> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectricCurrent> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000621> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectricCurrentErodingWire> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000519> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectricDischargeMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000648> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectricalConductance> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000620> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectricalConnection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000621> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Electrolyte/ElectrolyticSolution> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectrolyteAge> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000511> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectrolytePreparation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectrolyteServiceLife> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000600> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectrolyteVolume> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020150> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectrolyticCleaning> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectromechanicalTestingMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000973> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Electroplating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ElectroplatingRange> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EmbeddingCompound> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0050023> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EmbeddingEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000579> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EmbeddingMetallographicSpecimen> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Energy> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020142> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EngineeringMaterial> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EngineeringObject> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000030> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EngineeringStrain> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000974> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EngineeringStrainInLoadingDirection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000596> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EngineeringStress> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000952> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EngineeringStressInLoadingDirection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000952> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Entity> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Equipment> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000602> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EquipmentName> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EquipmentSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020152> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EquivalentCircuitCapacity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020148> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#EquivalentCircuitResistance> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000622> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Erbium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33379> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ErodingWire> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ErodingWireDiameter> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0040001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Etchant> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Etching> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000914> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Europium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_32999> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExcelSheet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060005> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExcelSheetName> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExpandedMetalType> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000852> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Experiment> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExperimentalSetup> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000602> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExposureTimeActual> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000416> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExposureTimeTarget> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000416> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Extensometer> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000636> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExtensometerDisplacement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExtensometerDisplacementAsIs> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000636> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ExtensometerDisplacementAsSupposed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000636> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Extrapolation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FeedSpeed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000833> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FerrousMaterial> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000639> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FiatObjectPart> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000024> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FiatObjectPartName> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000024> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FieldData> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#File> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FileContainer> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000310> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FileName> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FilterMaterial> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Filtration> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FlatTensileTestSpecimen> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FlowRate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Fluorine> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_24061> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Force> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020200> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ForceInLoadingDirection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020200> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ForceRelatedQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020200> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FormatDescription> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0001933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Fraction> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020101> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Fractography> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000856> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Francium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33323> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Frequency> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000946> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FrictionCoefficient> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000505> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Fully-AutomaticPlatingTreatment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FumeHood> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000814> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Function> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000034> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Furnace> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000655> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#FurnaceGripSystem> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000668> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Gadolinium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33375> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Gallium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49631> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GaugeLength> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0040001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GeneralGeometricQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020148> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GenerelExperimentRelatedProcess> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GenericallyDependentContinuant> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000031> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GeometricDimensionDataSet> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GeometricMeasurement> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GeometryInfo> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000310> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Germanium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30441> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GlossMeasurement> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Gold> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_29287> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Grain> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000663> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GrainBoundary> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000140> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GrainSize> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020112> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GrainStructure> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GravityCasting> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000899> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GridSize> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020132> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Grinding> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000823> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GrindingAndPolishing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000823> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GrindingAndPolishingEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000667> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GrindingAndPolishingSuspension> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000823> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#GripSystem> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000668> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Hafnium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33343> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HardChromePlating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Hardness> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000773> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HardnessBrinell> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000537> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HardnessTestingEquipment> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000775> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HardnessVickers> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000789> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatResistantGloves> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000968> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatTransferCoefficientMeltAndAtmosphere> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000981> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatTransferCoefficientMeltAndMold> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000981> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatTransferCoefficientMoldAndAtmosphere> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000981> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatTransferCoefficientRelatedQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000981> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatTransferCoefficientSolidifiedMetalAndMold> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000981> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatTreatment> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000779> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatTreatmentFurnace> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000780> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Heating> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000520> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatingEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000968> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HeatingSystem> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000780> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Helium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30217> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HighPurityAluminiumMaterial> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020071> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HighVoltageCurrentConnection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000812> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#History> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000182> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Holmium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49648> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HotDegreasing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HotDegreasingSupplier> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HotDegreasingTemperature> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HotDegreasingTime> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000202> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#HullCell> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000820> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Hydrogen> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49637> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ITEquipment> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#IWMPersonShortName> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000881> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Identifier> owl:equivalentClass <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ImageGeneration> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001015> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ImmaterialEntity> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000141> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ImportCAMDataAndMountMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000524> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Inclusion> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Indentation> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000776> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#IndentationDurationBrinell> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000776> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#IndentationForceBrinell> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020200> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#IndependentContinuant> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000004> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Indium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30430> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InductionHeatingSystem> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000791> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InertGasAtmosphere> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000633> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InformationContentEntity> owl:equivalentClass <http://purl.obolibrary.org/obo/IAO_0000030> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InfrastructureEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020153> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InfrastructureEquipmentSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020153> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Ingot> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020138> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Inhibitor> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InlensEnergySelectedBackscatterDetector> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000624> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InlensSecondaryElectronDetector> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000624> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InputFileGeneration> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000066> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#InsolubleAnode> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000561> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#IntegratedHeatingFurnace> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000655> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Interpolation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Iodine> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_24859> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#IonExchange> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000795> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#IonExchangeResin> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0050023> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Iridium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49666> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Iron> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_18248> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Krypton> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49696> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LIBSMeasurementSystem> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000944> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LabInfrastructureEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000814> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Lanthanum> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33319> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Laptop> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000582> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LaserInducedPlasmaSpectroscopy> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000816> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LayerThickness> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000965> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LayerThicknessMeasurement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Lead> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_25016> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Length> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0040001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Levelling> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LightFixture> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000874> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LightMicroscope> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000874> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LightMicroscopy> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000819> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LineDetector> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001022> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LiquidNitrogenTank> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000633> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Literal> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Lithium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30145> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LoadCell> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000820> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#LuminousIntensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020131> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Lutetium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33382> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MachinePreparation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000524> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MachineSoftware> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000582> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MachiningWithGeometricallyDeterminedEdge> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000822> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MacrothrowingPower> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000848> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Magnesium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_25107> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MagneticFlux> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000825> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Manganese> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_18291> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Manufacturer> owl:equivalentClass <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Manufacturing> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000833> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MarkAndLabelBlankAccordingToWithdrawalPlan> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000011> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MarkingExtensometerPositionOnSpecimenWithPen> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000974> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Mass> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020133> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MatCalcSimulation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialAsMeasuredDataSet> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialAsPredictedDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialAsSimulatedDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialAsSpecifiedDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialDataSet> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialDefect> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000141> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialEntity> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000040> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialID> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialMesoStructure> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialMicrostructure> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialNanoStructure> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000526> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialStructure> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000526> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialStructureInfo> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialStructureRelatedFiatObjectPart> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000024> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialStructureRelatedObject> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialSurfaceStructureInfo> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaterialVolumeStructureInfo> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MatterObject> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000030> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaximumMeltTemperatureAsIs> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaximumTensileForce> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020200> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MaximumTensileStrength> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000952> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MeasurementEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000636> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MeasurementLocation> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000018> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MeasurementRange> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000028> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MeasurementRelatedFiatObjectPart> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000024> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MeasuringDevice> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000602> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MechanicalExperiment> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000849> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MechanicalQuantity> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000848> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MechanicalTestingRelatedQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000848> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MechanicalWorkshopEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020153> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Melting> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000053> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Mercury> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_25195> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MetalDistribution> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020102> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MetallicMaterial> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000852> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MetallographicEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000648> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MetallographicGrindingDisc> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000823> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MetallographicPolishingProcedure> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000886> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MetallographicPreparation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000853> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MetallographicSection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020201> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MetallographicSpecimen> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000853> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MicrocrackedChromium> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020029> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Microdiscontinuity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MicroporousChromium> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020029> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MicroscopeAccessory> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000855> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MicroscopeEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000855> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Microscopy> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000856> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MicrostructuralQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000864> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MicrothrowingPower> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000571> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ModulatedCurrentElectroplating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000571> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MoldTemperatureAsIs> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MoldTemperatureAsSupposed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Molybdenum> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_28685> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MountMachineWithObject> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000524> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MountingOfSpecimenInTestingMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000524> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#MountingOfTestPieceInTestingMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000524> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Name> owl:equivalentClass rdfs:label .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Nanoindentation> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000867> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Neodymium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33372> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Neon> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33310> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Nickel> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_28112> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelCurrentDensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000597> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelPh> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000553> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelProcess> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000833> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelStrike> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000571> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelStrikeCurrentDensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000621> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelStrikePh> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000554> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelStrikeSupplier> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelStrikeTemperature> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelStrikeTime> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000880> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelSupplier> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelTemperature> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NickelTime> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000880> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Niobium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33344> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Nitrogen> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_25555> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NonDestructiveTesting> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000957> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NonDestructiveTestingEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000775> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NonDestructiveTestingRelatedQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020131> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NonFerrousMaterial> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NonMetallicInclusion> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Notch> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020203> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Number> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020207> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NumberDensity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000595> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NumberFraction> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020103> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NumberOfCracks> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020202> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NumberOfCycles> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020207> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NumberOfHeaderLinesInTable> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000035> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#NumberofMeasurements> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Object> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000030> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ObjectAggregate> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ObjectAggregateName> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ObjectID> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ObjectLens> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000855> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ObjectSet> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Occurrent> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000003> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OneDimensionalContinuantFiatBoundary> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000142> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OneDimensionalFieldData> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000501> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OneDimensionalSpatialRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000026> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OneDimensionalTemporalRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000038> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OpticalDisplacementAsIs> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OpticalStrainMeasurementSystem> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000636> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OrderID> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Organisation> owl:equivalentClass <http://purl.obolibrary.org/obo/OBI_0000245> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OriginalCrossSectionalAreaOfTheParallelLength> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020199> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#OriginalGaugeLength> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0040001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Osmium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30687> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Oxygen> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_25805> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PHValue> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0001933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Palladium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33363> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Particle> rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33250> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ParticleConcentrationTarget> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020101> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ParticleShape> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ParticleSize> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020112> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Peeling> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PenetrationModulus> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000618> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PercentageElongationAfterFracture> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020101> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PercentagePlasticExtensionAtMaximumForce> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000974> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PeriodicReverseElectrolyticCleaning> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PeriodicReverseElectroplating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000519> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PermanentMold> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000648> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PermanentMoldCasting> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000899> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PermeationResistance> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001010> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Person> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000881> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PersonFirstName> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000881> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PersonLastName> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000881> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PersonMiddleName> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000881> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PersonName> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000881> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PersonalProtectiveEquipment> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001999> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PhValueAfterCooling> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000554> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PhValueEndActual> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PhValueStartActual> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PhValueTarget> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0001931> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Phosphorus> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_28659> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PhysicalQuantity> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PhysicsModel> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000931> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Pickling> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PicklingSupplier> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PicklingTemperature> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PicklingTime> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000202> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PlatedObject> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000030> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Plating> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PlatingTank> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000567> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PlatingTime> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000880> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Platinum> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33364> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Polishing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000886> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Polonium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33313> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Pore> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020204> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Porosity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020104> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PostProcessing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Posttreatement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Potassium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_26216> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Power> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020142> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PowerSource> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000602> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PowerSourceManufacturer> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PowerSourceNumber> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PowerXRayTube> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001022> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Prasedoymium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49828> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PreProcessing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Precipitate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PrecipitateRadius> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Preparation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PreprocessingSoftware> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000583> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Pressure> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000896> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PrimaryCurrentDistribution> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PrimaryShaping> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000899> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PrimaryShapingFromLiquidState> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000906> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Procedure> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000011> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcedureName> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Process> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000015> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessBoundary> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000035> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessDataSet> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessEvaluation> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000070> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessExecution> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessID> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessParameterSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessProfile> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProcessSetup> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000011> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ProducerName> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Promethium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33373> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PulsePlating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PumpManufacturer> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#PumpNumber> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Quality> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000019> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#QualityControlReport> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000311> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Quantity> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#QuantityKind> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#QuasiStaticTensileTest> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000974> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Quenching> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000584> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RackElectroplating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000571> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RackPlatingJig> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000567> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RadiationProtectedWall> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000803> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Radium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33325> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Radon> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33314> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Ratio> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020101> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RealizableEntity> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000017> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RedoxPotential> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000619> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ReductionOfAreaAtFracture> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000024> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ReferenceArea> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RegionOfInterest> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Regulation> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000033> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RelationalQuality> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000145> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RelativeTime> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Remarks> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RemovalOfSpecimenFromTestingMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000914> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RemovalOfTestPieceFromTestingMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000612> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RemoveObjectFromMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000612> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Resist> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Resistance> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000773> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Rhenium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49882> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Rhodium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33359> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RinseWater> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RinsingDuration> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000038> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RinsingNumber> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RinsingStations> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000561> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RinsingTime> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Role> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000023> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RoughnessMeasurement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000966> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RoughnessSa> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000942> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RoughnessSm> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000966> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#RoundBlank> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000534> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Rp02> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000502> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Rubidium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33322> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Ruthenium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30682> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SEMCathode> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000922> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SaltSprayTest> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000554> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Samarium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33374> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Sawing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000822> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Scandium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33330> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ScanningElectronMicroscope> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000922> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ScanningElectronMicroscopy> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000625> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Second> rdfs:subClassOf <http://purl.obolibrary.org/obo/UO_0000003> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SecondaryDendriteArmSpacing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020201> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Selenium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27568> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Separating> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SeparatingCastPartFromMold> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Server> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000582> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ServohydraulicTestingMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000637> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ShelfRoughness> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000853> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Shield> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000602> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ShrinkageAdjustment> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020104> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Silicon> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27573> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Silver> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30512> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Simulation> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SimulationQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000931> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SimulationSoftware> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000932> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SimulationStep> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Site> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000029> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Sketch> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000104> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SoakCleaning> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Sodium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_26708> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Software> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000582> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SoftwareArchitecture> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000104> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SoftwareName> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SoftwareScript> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000583> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SoftwareTool> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000862> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SoftwareVersion> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0001933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Solution> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SolutionAnnealing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000988> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SolutionAnnealingDuration> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000779> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SolutionAnnealingDurationAsSupposed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000550> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SolutionAnnealingTemperature> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SolutionAnnealingTemperatureAsSupposed> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SolventDegreasing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000560> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Spalling> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpatialRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpatiotemporalRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000011> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecificDataFormat> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecificHeatCapacity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000777> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecificWearRate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000005> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecificallyDependentContinuant> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000020> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecificationOfAnalysedChemicalElementsInLIBSProcess> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000945> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Specimen> owl:equivalentClass <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenCooling> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000055> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenCrossSectionArea> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020201> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenCrossSectionAreaAtFracture> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenDiameter> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000109> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenDiameterAtFracture> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000610> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenGeometryParameter> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenHeating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000520> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenLength> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0040001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenName> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenPreparation> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpecimenRelatedQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020148> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Spectroscopy> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000945> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SpottingOut> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000563> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Stabilizer> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0050058> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#StarDusting> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000853> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SteelMaterial> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020096> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#StrainRate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000596> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#StrainRateInLoadingDirection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000596> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#StrainRelatedQuantity> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000145> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#StressRelatedQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000952> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Strike> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000566> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Strontium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33324> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#StructuralInfo> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000857> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#StructuralQuantity> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SubprocessSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020143> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Substance> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Substrate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000002> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Sulfate> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0050100> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Sulfur> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_26833> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Summarising> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020209> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SuperimposedVibration> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000950> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Supplier> owl:equivalentClass <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SupplierNumber> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0020000> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SurfaceFactor> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000942> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SurfaceFinishing> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000823> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SurfacePropertyDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0060009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SurfaceTension> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000942> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SurfaceTensionMeasurement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000847> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#SurfaceTopographyMeasurement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000611> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#System> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020153> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TaberAbraserTest> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001010> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Table> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000027> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TankVoltage/CellVoltage> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000619> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Tantalum> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33348> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Technetium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33353> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TechnicalStrain> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000848> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TechnologicalProduct> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020153> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TechnologicalProductRelatedFiatObjectPart> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000024> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TechnologicalProductRelatedSite> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Tellurium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30452> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Temperature> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemperatureActual> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemperatureControl> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000969> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemperatureControlDevice> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000968> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemperatureControlManufacturer> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000835> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemperatureMeasuredByThermocouple> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemperatureMeasurement> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000971> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemperatureRelatedQuantity> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemperatureTarget> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000967> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemporalDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000992> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TemporalRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000008> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TensileTest> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000974> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TensileTestSpecimen> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TensileTestingMachine> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000973> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Terbium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33376> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TestExecution> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000070> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TestSpecification> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000104> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TestingMachine> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000973> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Texture> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000853> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Thallium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_30440> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ThermoCamera> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000983> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ThermocoupleWire> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000983> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ThermocoupleWireTypeK> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000983> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ThermophysicalPropertyDataSet> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000981> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ThreeDimensionalFieldData> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000007> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ThreeDimensionalSpatialRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000028> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ThreeDimensionalXRayComputerTomography> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0001015> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Thulium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33380> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Time> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000202> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TimeRelatedQuantity> owl:equivalentClass <http://purl.obolibrary.org/obo/IAO_0000416> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TimeToCastingAfterMoldPositioning> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000416> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TimeToFloodingOfMoldChamber> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000416> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TimeToInductionSwitchOff> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000416> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Tin> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27007> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Titanium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33341> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TransmissionElectronMicroscope> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000624> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Treating> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000927> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TribologicalMeasurement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001010> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TrueStrain> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0020098> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TrueStress> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000896> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Tungsten> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27998> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Turning> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000833> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TurningMachine> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000818> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TurningTool> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001998> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TurningToolRadius> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000818> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TwoDimensionalContinuantFiatBoundary> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000140> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TwoDimensionalFieldData> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000502> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#TwoDimensionalSpatialRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#URL> owl:equivalentClass dcterms:title .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#URLToFolder> rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000311> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#UniformElongation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000596> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Uniformity> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000034> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Unit> owl:equivalentClass <http://purl.obolibrary.org/obo/IAO_0000003> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#UnitSymbol> owl:equivalentClass <http://purl.obolibrary.org/obo/IAO_0000003> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Vanadium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27698> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Velocity> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Version> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0001933> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#VickersIndentation> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000789> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#VisualInspection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000957> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Voltage> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000619> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#VoltageActual> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0000619> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Volume> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020150> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#VoxelEdgeLength> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0040001> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#WeightFraction> owl:equivalentClass <https://w3id.org/pmd/co/PMD_0020102> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#WeldedConnection> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000810> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#WettingAgent> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000523> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Whisker> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000852> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#WireEroding> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000914> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#WorkPiece> rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0100051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#XCoordinate> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000018> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#XRFThicknessMeasurement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001014> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#XRayTube> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0001022> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Xenon> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_49957> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#YCoordinate> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000018> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#YieldStress> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#YoungsModulus> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000618> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Ytterbium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33381> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Yttrium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33331> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ZCoordinate> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000018> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ZeroDimensionalContinuantFiatBoundary> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000147> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ZeroDimensionalSpatialRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000018> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#ZeroDimensionalTemporalRegion> owl:equivalentClass <http://purl.obolibrary.org/obo/BFO_0000148> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Zinc> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_27363> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#Zirconium> owl:equivalentClass <http://purl.obolibrary.org/obo/CHEBI_33342> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#appliesForTemperatureUnitSymbol> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002135> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#appliesForTemperatureValue> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0001937> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#chronologicalConnection> owl:equivalentProperty <http://purl.obolibrary.org/obo/BFO_0000063> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#containsValuesOfType> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0002351> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasAttachedDataSet> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasControlInfo> rdfs:subPropertyOf <https://w3id.org/pmd/co/PMD_0000009> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasDoubleLiteral> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0001937> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasIdentifier> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000235> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasInfo> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000136> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasIntegerLiteral> rdfs:subPropertyOf <https://w3id.org/pmd/co/PMD_0000006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasMaxDoubleValue> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0001937> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasMinDoubleValue> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0001937> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasOperator> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0000087> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasOutput> owl:equivalentProperty <http://purl.obolibrary.org/obo/RO_0002234> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasPart> owl:equivalentProperty <http://purl.obolibrary.org/obo/BFO_0000051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasParticipant> owl:equivalentProperty <http://purl.obolibrary.org/obo/RO_0000057> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasQuantityKind> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0000086> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasRealLiteral> rdfs:subPropertyOf <https://w3id.org/pmd/co/PMD_0000006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasSectionInfo> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000051> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasStringLiteral> rdfs:subPropertyOf <https://w3id.org/pmd/co/PMD_0000006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasStructuralInfo> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000136> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasStructuralQuantity> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0000086> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasTemporalInfo> owl:equivalentProperty <http://purl.obolibrary.org/obo/BFO_0000121> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasTextualInfo> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000136> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasURILiteral> rdfs:subPropertyOf <https://w3id.org/pmd/co/PMD_0000006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasUnitSymbol> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002135> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#hasValue> owl:equivalentProperty <https://w3id.org/pmd/co/PMD_0000006> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#inAccordanceWith> owl:equivalentProperty <https://w3id.org/pmd/co/PMD_0001026> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#isComposedOf> owl:equivalentProperty <https://w3id.org/pmd/co/PMD_0020005> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#isDefinedBy> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000136> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#isInputFor> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0002352> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#isOfType> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000136> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#isRepresentativeFor> rdfs:subPropertyOf <https://w3id.org/pmd/co/PMD_0000070> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#isUnitSymbolForUnit> rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000039> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#pHMeasurement> rdfs:subClassOf <https://w3id.org/pmd/co/PMD_0000847> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#precedes> owl:equivalentProperty <http://purl.obolibrary.org/obo/BFO_0000063> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#refersTo> owl:equivalentProperty <https://w3id.org/pmd/co/PMD_0020127> .
+
+<https://www.iwm.fraunhofer.de/ontologies/bwmd-ontology#refersToElementSymbol> rdfs:subPropertyOf <https://w3id.org/pmd/co/PMD_0000006> .
+
