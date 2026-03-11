@@ -1,8 +1,8 @@
-# BWMD-Mapping
-Mapping of BWMD Ontology to PMDCo
+# DigiChrom
+Digitale Werkzeuge zur Verbesserung galvanischer Schichten am Beispiel Chrom(III)-basierter Prozesse.
 
-# Scope
-The mapping will be owl triples that map classes and object properties from BWMD ontology to PMDCo. We aim for a complete integration of BWMD entities into PMDCo with a static owl mapping!
+# PlatOn Ontology
+A domain level ontology for electroplating of chromium coatings from trivalent chromium electrolytes with subsequent characterization.
 
-# Example Data
-Explain the example data here^^
+# Ontology Alignment
+PlatOn is created based on the BWMD ontology and the GraphDesigner App. An Ontology Alignment will align PlatOn to PMDco. 
