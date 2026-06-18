@@ -1,0 +1,76 @@
+PROCESS: Activation
+INPUTOBJECT:
+- ObjectClass: ObjectDegreasedAnodic
+  Amount: '1'
+  IDs:
+  - ObjectID
+  EngineeringMaterialNames: []
+  ComponentSectionNames: []
+- ObjectClass: ActivationAgent
+  Amount: '1'
+  IDs:
+  - ProductName
+  - SupplierName
+  - ChemicalFormula
+  EngineeringMaterialNames: []
+  ComponentSectionNames: []
+INPUTDATASET: []
+INPUTDATAFILES: []
+INPUTDATASETFROMMATERIALTEMPLATE:
+- MaterialTemplateName: ''
+  Integrate: false
+OUTPUTOBJECT:
+- ObjectClass: ObjectActivated
+  Amount: '1'
+  IDs:
+  - ObjectID
+  EngineeringMaterialNames: []
+  ComponentSectionNames: []
+PROCESSPARAMETERSET:
+- ParameterName: ProcessTemperature
+  PhysicalQuantity: 'True'
+- ParameterName: TreatmentTime
+  PhysicalQuantity: 'True'
+- ParameterName: ConvectionStrength
+  PhysicalQuantity: 'True'
+- ParameterName: MovementType
+  PhysicalQuantity: 'False'
+- ParameterName: RinsingCycles
+  PhysicalQuantity: 'False'
+- ParameterName: RinsingDuration
+  PhysicalQuantity: 'True'
+PROCESSDATASET: []
+PROCESSDATASETFROMMATERIALTEMPLATE:
+- MaterialTemplateName: ''
+  Integrate: false
+PROCESSDATAFILES: []
+SUBPROCESSSET:
+- SubprocessType: Rinsing
+PROCESSSETUP:
+- EquipmentType: Equipment
+INFRASTRUCTUREEQUIPMENTSET:
+- InfrastructureEquipmentType: LabInfrastructureEquipment
+SOFTWAREARCHITECTURE:
+- SoftwareModule: Software
+ENGINEERINGMATERIALS:
+- EngineeringMaterialName: ''
+  MaterialTemplates: []
+MATERIALTEMPLATES:
+- TEMPLATENAME: ''
+  TEMPLATETYPE: AsSpecified
+  CHEMICALCOMPOSITION:
+  - Property: Quantity
+    MinMaxValues: false
+    TemperatureDependent: false
+    Amount: '1'
+COMPONENTSECTIONS:
+- ComponentSectionName: ''
+  SectionTemplates: []
+COMPONENTSECTIONTEMPLATES:
+- TEMPLATENAME: ''
+  TEMPLATETYPE: AsSpecified
+  GEOMETRICDIMENSIONS:
+  - Property: Quantity
+    MinMaxValues: false
+    TemperatureDependent: false
+    Amount: '1'
