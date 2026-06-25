@@ -87,8 +87,8 @@ class PerformanceMonitor:
 monitor = PerformanceMonitor()
 
 # === EINSTELLUNGEN ===
-API_KEY  = "sk-aEreZmXpktbKrkQvBGMD"
-BASE_URL = "https://llm-proxy.imla.hs-offenburg.de/"
+API_KEY  = "YOUR_API_KEY_HERE"
+BASE_URL = "YOUR_BASE_URL_HERE"
 
 # ════════════════════════════════════════════════════════════════════════════
 # ONTOLOGY ALIGNMENT CONFIGURATION
